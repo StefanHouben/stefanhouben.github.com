@@ -7,10 +7,18 @@
         text-decoration: bold;
         text-size: 1em;
     }
-    
+    -webkit-filter: opacity(50%);
 .background-image {
+  position: fixed;
+  left: 0;
+  right: 0;
+  z-index: 1;
+
   background-image: url(http://www.tne.edu.au/~/media/Images/Foreground_banner_images/Hospitality.ashx);
+  -webkit-filter: opacity(50%);
 }
+
+
 
 .description {
   position: fixed;
@@ -22,7 +30,8 @@
 }
     </style>
 </head>
-<body background=http://www.tne.edu.au/~/media/Images/Foreground_banner_images/Hospitality.ashx>
+<div class="background-image"></div>
+//<body background=http://www.tne.edu.au/~/media/Images/Foreground_banner_images/Hospitality.ashx>
 
 <center><h1>Van Der Werff Hospitality</h1></center>
 <br><br><br><br>
