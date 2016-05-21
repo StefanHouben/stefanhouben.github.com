@@ -9,16 +9,22 @@
     }
     -webkit-filter: opacity(50%);
 .background-image {
-  position: fixed; 
+  position: fixed;
   left: 0;
   right: 0;
   z-index: 1;
 
+  display: block;
   background-image: url(http://www.tne.edu.au/~/media/Images/Foreground_banner_images/Hospitality.ashx);
-  -webkit-filter: opacity(50%);
-  filter: opacity(50%);
-}
+  width: 1200px;
+  height: 800px;
 
+  -webkit-filter: blur(5px);
+  -moz-filter: blur(5px);
+  -o-filter: blur(5px);
+  -ms-filter: blur(5px);
+  filter: blur(5px);
+}
 
 .description {
   position: fixed;
